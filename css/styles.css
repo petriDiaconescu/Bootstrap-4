@@ -7,6 +7,14 @@ h2 span {
   font-size: 4rem;
 }
 
+h3 {
+  font-size: 2rem;
+}
+
+h3 span {
+  font-size: 3rem;
+}
+
 h2, h3 {
   font-family: 'Lato', sans-serif;
   color: black;
