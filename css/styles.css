@@ -88,3 +88,7 @@ nav.main-nav .nav-link {
   border: none;
   border-radius: 0;
 } 
+
+.image-info .btn-success:hover {
+  background-color: #ca5b88;
+} 
