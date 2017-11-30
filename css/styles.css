@@ -1,4 +1,14 @@
 /*** Add your styles here **/
+h2 {
+  color: black;
+  font-size: 2.4rem;
+}
+
+h2 span {
+  font-size: 4rem;
+  color: #e082a8;
+}
+
 .navigation {
   background-color: #8ed3cc;
 }
