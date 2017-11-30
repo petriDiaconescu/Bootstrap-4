@@ -1,0 +1,26 @@
+/*** Add your styles here **/
+.navigation {
+  background-color: #8ed3cc;
+}
+
+nav.main-nav {
+  background-image: url(../img/border_horizontal.png),
+                    url(../img/border_horizontal.png);
+  background-repeat: repeat-x;  
+  background-position: 0px top, 0px bottom;
+}
+
+nav.main-nav .nav-item{
+  transition: background-color .3s ease;
+}
+
+nav.main-nav .nav-item:hover {
+  background-color: #39a69b;
+  border-radius: 10px;
+}
+
+nav.main-nav .nav-link {
+  font-size: 1.4rem;
+  color: #fff;
+  font-family: 'Raleway', sans-serif;
+}
