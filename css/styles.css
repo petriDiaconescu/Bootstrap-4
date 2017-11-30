@@ -82,3 +82,9 @@ nav.main-nav .nav-link {
   background-color: white;
   margin-top: -50px;
 } 
+
+.image-info .btn-success {
+  background-color: #e082a8;
+  border: none;
+  border-radius: 0;
+} 
