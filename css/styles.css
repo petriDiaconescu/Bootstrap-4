@@ -24,3 +24,10 @@ nav.main-nav .nav-link {
   color: #fff;
   font-family: 'Raleway', sans-serif;
 }
+
+/** Carousel */
+.carousel .carousel-caption h3 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 2rem;
+  font-weight: 700;
+}
