@@ -25,10 +25,12 @@
     <main class="container">
       <div class="row">
         <div class="col-12 offset-1">
-          <a href="" data-toggle="tooltip" 
-            title="Discover our great web design services!">
-              Web Design
-          </a>
+          <p class="display-3">
+            <a href="" data-toggle="tooltip" 
+              title="Discover our great web design services!">
+                Web Design
+            </a>
+          </p>  
         </div>
       </div>
     </main>
@@ -43,9 +45,9 @@
     <script src="js/scripts.js"></script>
 
     <script type="text/javascript">
-      $(document).ready(function(){
-        $('[data-toggle="tooltip"]').tooltip({
-          placement: 'right',
+      $(document).ready(function(){   
+        $('p.display-3').tooltip({
+          placement: 'top',
           trigger: 'hover'
         });
       });
