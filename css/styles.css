@@ -9,6 +9,11 @@ h2 span {
   color: #e082a8;
 }
 
+h2 span,
+h3 span {
+  font-family: 'Italianno', cursive;
+}
+
 .navigation {
   background-color: #8ed3cc;
 }
