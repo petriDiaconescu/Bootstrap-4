@@ -12,4 +12,10 @@ nav.main-nav {
 
 nav.main-nav .nav-item:hover {
   background-color: #39a69b;
+  border-radius: 10px;
+}
+
+nav.main-nav .nav-link {
+  font-size: 1.2rem;
+  color: #fff;
 }
