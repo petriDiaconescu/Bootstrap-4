@@ -72,3 +72,8 @@ nav.main-nav .nav-link {
   color: #979797;
   font-family: 'Lato', sans-serif;
 }
+
+/** Image links */
+ .image-links img {
+   border: 6px solid white;
+ } 
