@@ -9,3 +9,7 @@ nav.main-nav {
   background-repeat: repeat-x;  
   background-position: 0px top, 0px bottom;
 }
+
+nav.main-nav .nav-item:hover {
+  background-color: #39a69b;
+}
