@@ -53,3 +53,10 @@ nav.main-nav .nav-link {
   font-weight: 700;
   color: #fff;
 }
+
+/** New site */
+.new-website p {
+  font-size: 1.6rem;
+  color: #979797;
+  font-family: 'Lato', sans-serif;
+}
