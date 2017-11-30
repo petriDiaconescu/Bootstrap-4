@@ -12,6 +12,7 @@ h2 span {
 h2 span,
 h3 span {
   font-family: 'Italianno', cursive;
+  display: block;
 }
 
 .navigation {
