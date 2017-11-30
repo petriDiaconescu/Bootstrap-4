@@ -2,3 +2,8 @@
 .navigation {
   background-color: #8ed3cc;
 }
+
+nav.main-nav {
+  background-image: url(../img/border_horizontal.png);
+  background-repeat: repeat-x;  
+}
