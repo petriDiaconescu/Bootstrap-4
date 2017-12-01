@@ -108,6 +108,10 @@ nav.main-nav .nav-link {
   color: #fff;
 }
 
+.business-hours h2 {
+  color: #fff;
+}
+
 .bg-hours {
   background-image: url(../img/bg_hours.jpg);
   background-repeat: no-repeat;
