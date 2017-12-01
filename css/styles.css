@@ -126,3 +126,7 @@ nav.main-nav .nav-link {
 .table td, .table thead th {
   border: none;
 }
+
+.table tbody tr td {
+  padding: .35rem;
+}
