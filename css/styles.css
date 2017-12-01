@@ -33,8 +33,23 @@ h3 span {
 }
 
 /** Social Menu */
-.socials {
-  
+.socials ul{
+ list-style: none;  
+}
+
+.socials ul li {
+  position: relative;
+  display: inline-block;
+}
+
+.socials ul li a:before {
+  font-family: 'FontAwesome';
+  display: inline-block;
+  vertical-align: top;
+  padding: 0 1rem;
+  content: '\f08e';
+  color: #e082a8;
+  -webkit-font-smoothing: antialiased;
 }
 
 /** Navigation */
