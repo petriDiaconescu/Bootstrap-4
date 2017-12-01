@@ -147,3 +147,18 @@ nav.main-nav .nav-link {
 .products .card a:hover {
   text-decoration: none;
 }
+
+.products .card h3 {
+  font-size: 1.3rem;
+  color: #e082a8;
+}
+
+.products .card p {
+  font-size: .8rem
+}
+
+.products .card p.price {
+  font-size: 1.5rem;
+  font-family: 'Lato', sans-serif;
+  color: #979797;
+}
