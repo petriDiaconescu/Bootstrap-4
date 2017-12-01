@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css?family=Italianno|Lato:400,700,900|Raleway:400,700,900" rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css">
+    <title>Carolina Spa <?php echo $title; ?></title>
   </head>
   <body>
     <header class="site-header container">

@@ -1,5 +1,8 @@
- <?php include 'templates/header.php' ?>
-  <?php include 'templates/navigation.php' ?> 
+ <?php 
+   include 'templates/header.php'; 
+   include 'templates/navigation.php';
+   $title = 'Home';
+ ?> 
     <div class="container">
       <div id="main-slider" class="carousel slide mt-4" data-ride="carousel">
         <ol class="carousel-indicators">
