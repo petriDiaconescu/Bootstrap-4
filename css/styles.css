@@ -259,4 +259,8 @@ nav.main-nav .nav-link {
   bottom: 2rem;
   right: 0;
   padding: 1rem 2rem 1rem 6rem;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 900;
+  font-size: 3rem;
+  color: #fff;
 }
