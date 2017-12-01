@@ -198,3 +198,9 @@ nav.main-nav .nav-link {
 .appointment .btn-primary:hover {
   background-color: #68beb5;
 }
+
+/** Footer */
+.site-footer p.copyright {
+  font-family: 'Lato', sans-serif;
+  color: #979797;
+}
