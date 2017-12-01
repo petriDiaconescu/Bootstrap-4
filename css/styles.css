@@ -79,6 +79,8 @@ nav.main-nav .nav-link {
 } 
 
 .image-links img:hover {
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
   transform: scale(1.2);
 }
 
