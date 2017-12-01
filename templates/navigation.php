@@ -1,8 +1,23 @@
-<?php
-
-/* 
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-
+  <div class="navigation mt-4 py-1">
+    <nav class="main-nav py-1">
+      <div class="container">
+        <ul class="nav nav-justified flex-column flex-sm-row">
+          <li class="nav-item">
+            <a href="" class="nav-link">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="" class="nav-link">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a href="" class="nav-link">Services</a>
+          </li>
+          <li class="nav-item">
+            <a href="" class="nav-link">Products</a>
+          </li>
+          <li class="nav-item">
+            <a href="" class="nav-link">Contact Us</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </div>
