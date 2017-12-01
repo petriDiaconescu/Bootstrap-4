@@ -53,6 +53,26 @@ h3 span {
   font-size: 2rem;
 }
 
+.socials ul li a[href*="facebook.com"]:before{
+  content: '\f230';
+}
+
+.socials ul li a[href*="twitter.com"]:before{
+  content: '\f081';
+}
+
+.socials ul li a[href*="instagram.com"]:before{
+  content: '\f16d';
+}
+
+.socials ul li a[href*="pinterest.com"]:before{
+  content: '\f0d2';
+}
+
+.socials ul li a[href*="youtube.com"]:before{
+  content: '\f16a';
+}
+
 /** Navigation */
 .navigation {
   background-color: #8ed3cc;
