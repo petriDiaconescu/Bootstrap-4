@@ -170,3 +170,9 @@ nav.main-nav .nav-link {
   background-position: center center;
   background-attachment: fixed;
 }
+
+.appointment h3 {
+  font-size: 3.5rem;
+  color: #fff;
+  line-height: 4rem;
+}
