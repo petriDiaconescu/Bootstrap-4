@@ -15,6 +15,7 @@
 <div class="container">
   <div class="row">
     <main class="col-lg-8 main-content">
+      <h2 class="d-block d-md-none text-center text-uppercase">About Us</h2>
       <p>Duis lacus dui, imperdiet at iaculis ut, semper non 
         lectus. Integer velit massa, pellentesque quis volutpat 
         non, mattis eget mi. Proin massa tortor, laoreet sit 
