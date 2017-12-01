@@ -118,3 +118,7 @@ nav.main-nav .nav-link {
   background-position: center;
   min-height: 300px;
 }
+
+.table {
+  border: 2px solid #e082a8;
+}
