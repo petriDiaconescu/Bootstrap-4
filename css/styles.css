@@ -76,6 +76,7 @@ nav.main-nav .nav-link {
 /** Image links */
  .image-links img {
    border: 6px solid white;
+   transition: transform .3s ease;
 } 
 
 .image-links img:hover {
