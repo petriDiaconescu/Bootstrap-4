@@ -246,3 +246,16 @@ nav.main-nav .nav-link {
   font-family: 'Lato', sans-serif;
   color: #979797;
 }
+
+/** Internal Pages */
+/** About Us */
+.hero {
+  position: relative;
+}
+
+.hero h2 {
+  position: absolute;
+  background-color: #8ed3cc;
+  bottom: 2rem;
+  right: 0;
+}
