@@ -137,6 +137,9 @@ nav.main-nav .nav-link {
 }
 
 /** Products */
+.products .card {
+  border: none;
+}
 .products .card a {
   color: #000;
 }
