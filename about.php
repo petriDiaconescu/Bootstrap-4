@@ -12,4 +12,18 @@
   </div>
 </div>
 
+<div class="container">
+  <div class="row">
+    <main class="col-lg-8 main-content">
+      Main Content
+    </main>
+    
+    <aside class="col-lg-4">
+      <div class="sidebar">
+        sidebar
+      </div>
+    </aside>
+  </div>
+</div>
+
 <?php include 'templates/footer.php' ?>
