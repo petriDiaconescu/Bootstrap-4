@@ -168,4 +168,5 @@ nav.main-nav .nav-link {
   background-image: url(../img/bg_appointment.jpg);
   background-repeat: no-repeat;
   background-position: center center;
+  background-attachment: fixed;
 }
