@@ -186,3 +186,15 @@ nav.main-nav .nav-link {
 .appointment p {
   line-height: 2.6rem;
 }
+
+.appointment .btn-primary {
+  background-color: #8ed3cc;
+  border: none;
+  border-radius: 0;
+  padding: 1rem 5rem;
+  font-family: 'Lato', sans-serif;
+}
+
+.appointment .btn-primary:hover {
+  background-color: #68beb5;
+}
