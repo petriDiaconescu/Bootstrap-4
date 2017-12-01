@@ -104,7 +104,8 @@ nav.main-nav .nav-link {
 
 /** Business hours */
 .business-hours {
-  background-color: #8ed3cc;  
+  background-color: #8ed3cc;
+  color: #fff;
 }
 
 .bg-hours {
