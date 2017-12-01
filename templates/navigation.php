@@ -3,10 +3,10 @@
       <div class="container">
         <ul class="nav nav-justified flex-column flex-sm-row">
           <li class="nav-item">
-            <a href="" class="nav-link">Home</a>
+            <a href="index.php" class="nav-link">Home</a>
           </li>
           <li class="nav-item">
-            <a href="" class="nav-link">About Us</a>
+            <a href="about.php" class="nav-link">About Us</a>
           </li>
           <li class="nav-item">
             <a href="" class="nav-link">Services</a>
