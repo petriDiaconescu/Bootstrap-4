@@ -7,7 +7,7 @@
   <div class="row no-gutters">
     <div class="col-12 hero">
       <img src="img/about_us.jpg" alt="" class="img-fluid"/>
-      <h2 class="text-uppercase">About Us</h2>
+      <h2 class="text-uppercase d-none d-md-block">About Us</h2>
     </div>
   </div>
 </div>
