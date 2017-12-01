@@ -169,6 +169,7 @@ nav.main-nav .nav-link {
   background-repeat: no-repeat;
   background-position: center center;
   background-attachment: fixed;
+  background-size: cover;
   color: #fff;
 }
 
