@@ -169,10 +169,14 @@ nav.main-nav .nav-link {
   background-repeat: no-repeat;
   background-position: center center;
   background-attachment: fixed;
-  background-size: cover;
   color: #fff;
 }
 
+@media (min-width: 992px){
+  .appointment {
+    background-size: cover;
+  }
+}
 .appointment h3 {
   font-size: 3.5rem;
   color: #fff;
