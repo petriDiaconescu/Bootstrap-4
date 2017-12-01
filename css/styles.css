@@ -103,6 +103,10 @@ nav.main-nav .nav-link {
 } 
 
 /** Business hours */
+.business-hours {
+  background-color: #8ed3cc;  
+}
+
 .bg-hours {
   background-image: url(../img/bg_hours.jpg);
   background-repeat: no-repeat;
