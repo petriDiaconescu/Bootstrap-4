@@ -80,9 +80,9 @@ nav.main-nav .nav-link {
 } 
 
 .image-links img:hover {
-  -webkit-transform: scale(1.2);
-  -ms-transform: scale(1.2);
-  transform: scale(1.2);
+  -webkit-transform: scale(1.2) rotate(10deg);
+  -ms-transform: scale(1.2) rotate(10deg);
+  transform: scale(1.2) rotate(10deg);
 }
 
 .image-info {
