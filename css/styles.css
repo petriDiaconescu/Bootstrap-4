@@ -101,3 +101,11 @@ nav.main-nav .nav-link {
 .image-info .btn-success:hover {
   background-color: #ca5b88;
 } 
+
+/** Business hours */
+.bg-hours {
+  background-image: url(../img/bg_hours.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 300px;
+}
