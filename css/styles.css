@@ -122,3 +122,7 @@ nav.main-nav .nav-link {
 .table {
   border: 2px solid #e082a8;
 }
+
+.table td, .table thead th {
+  border: none;
+}
