@@ -3,7 +3,7 @@
   include 'templates/navigation.php';
   $title = 'About Us';
 ?>
-<div class="container">
+<div class="container pt-4">
   <div class="row">
     <div class="col-12 hero">
       <img src="img/about_us.jpg" alt="" class="img-fluid"/>
