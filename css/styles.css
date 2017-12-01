@@ -135,3 +135,12 @@ nav.main-nav .nav-link {
 .table-hover .table-danger:hover {
   background-color: #e082a8;
 }
+
+/** Products */
+.products .card a {
+  color: #000;
+}
+
+.products .card a:hover {
+  text-decoration: none;
+}
