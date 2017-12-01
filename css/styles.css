@@ -78,6 +78,10 @@ nav.main-nav .nav-link {
    border: 6px solid white;
 } 
 
+.image-links img:hover {
+  transform: scale(1.2);
+}
+
 .image-info {
   background-color: white;
   margin-top: -50px;
