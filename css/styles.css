@@ -325,3 +325,9 @@ nav.main-nav .nav-link {
 #discount .coupon p span {
   display: block;
 }
+
+/** Contact  */
+.contact-form {
+  border: 2px solid #9a9a9a;
+  background-color: #fff;
+}
