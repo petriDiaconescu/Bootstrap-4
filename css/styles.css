@@ -301,3 +301,7 @@ nav.main-nav .nav-link {
   -webkit-background-clip: content-box;
   background-clip: content-box;
 }
+
+#discount h3 {
+  color: #fff;
+}
