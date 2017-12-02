@@ -65,7 +65,7 @@
             </h3>
           </div><!-- card-header -->
           
-          <div id="service2_desc" class="collapse show" 
+          <div id="service2_desc" class="collapse" 
             role="tabpanel" aria-labelledby="service_2">
               <div class="card-block">
                 In a purus eget arcu tempor pharetra. In hac habitasse 
@@ -97,7 +97,7 @@
             </h3>
           </div><!-- card-header -->
           
-          <div id="service3_desc" class="collapse show" 
+          <div id="service3_desc" class="collapse" 
             role="tabpanel" aria-labelledby="service_3">
               <div class="card-block">
                 In a purus eget arcu tempor pharetra. In hac habitasse 
