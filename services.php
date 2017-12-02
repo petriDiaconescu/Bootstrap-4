@@ -116,9 +116,9 @@
       </div><!--#services  -->
     </main>
     
-    <aside class="col-lg-4 pt-4 pt-lg-0 discount">
+    <aside class="col-lg-4 pt-4 pt-lg-0" id="discount">
       <div class="p-3">
-        <div class="text-center text-uppercase mt-4">First time customers</div>
+        <h3 class="text-center text-uppercase mt-4">First time customers</h3>
         <p class="lead text-center mt-4">Get 20% off in any service, with this coupon</p>
         
         <div class="coupon p-1">
