@@ -15,7 +15,7 @@
             <a href="products.php" class="nav-link">Products</a>
           </li>
           <li class="nav-item">
-            <a href="" class="nav-link">Contact Us</a>
+            <a href="contact.php" class="nav-link">Contact Us</a>
           </li>
         </ul>
       </div>
