@@ -80,9 +80,9 @@
         <div class="col-6 col-md-3 mb-5 mb-md-0">
           <div class="card">
             <a href="">
-              <img src="img/product_thumb_01.jpg" alt="" class="card-img-top img-fluid" />
+              <img src="img/product_thumb_05.jpg" alt="" class="card-img-top img-fluid" />
               <div class="card-block">
-                <h3 class="card-title text-center text-uppercase mb-0">Product 1</h3>
+                <h3 class="card-title text-center text-uppercase mb-0">Product 5</h3>
                 <p class="card-text text-uppercase">Vivamus auctor, velit ut tincidunt 
                   molestie, elit metus iaculis sapien
                 </p>
@@ -94,9 +94,9 @@
         <div class="col-6 col-md-3">
           <div class="card">
             <a href="">
-              <img src="img/product_thumb_02.jpg" alt="" class="card-img-top img-fluid" />
+              <img src="img/product_thumb_06.jpg" alt="" class="card-img-top img-fluid" />
               <div class="card-block">
-                <h3 class="card-title text-center text-uppercase mb-0">Product 2</h3>
+                <h3 class="card-title text-center text-uppercase mb-0">Product 6</h3>
                 <p class="card-text text-uppercase">Vivamus auctor, velit ut tincidunt 
                   molestie, elit metus iaculis sapien
                 </p>
@@ -108,9 +108,9 @@
         <div class="col-6 col-md-3">
           <div class="card">
             <a href="">
-              <img src="img/product_thumb_03.jpg" alt="" class="card-img-top img-fluid" />
+              <img src="img/product_thumb_07.jpg" alt="" class="card-img-top img-fluid" />
               <div class="card-block">
-                <h3 class="card-title text-center text-uppercase mb-0">Product 3</h3>
+                <h3 class="card-title text-center text-uppercase mb-0">Product 7</h3>
                 <p class="card-text text-uppercase">Vivamus auctor, velit ut tincidunt 
                   molestie, elit metus iaculis sapien
                 </p>
@@ -122,9 +122,9 @@
         <div class="col-6 col-md-3">
           <div class="card">
             <a href="">
-              <img src="img/product_thumb_04.jpg" alt="" class="card-img-top img-fluid" />
+              <img src="img/product_thumb_08.jpg" alt="" class="card-img-top img-fluid" />
               <div class="card-block">
-                <h3 class="card-title text-center text-uppercase mb-0">Product 4</h3>
+                <h3 class="card-title text-center text-uppercase mb-0">Product 8</h3>
                 <p class="card-text text-uppercase">Vivamus auctor, velit ut tincidunt 
                   molestie, elit metus iaculis sapien
                 </p>
