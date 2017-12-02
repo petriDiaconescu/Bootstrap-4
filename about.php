@@ -37,7 +37,7 @@
     
     <aside class="col-lg-4">
       <div class="sidebar">
-        sidebar
+        <?php include 'templates/business_hours.php' ?>
       </div>
     </aside>
   </div>
