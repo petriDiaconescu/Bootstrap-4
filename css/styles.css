@@ -265,6 +265,10 @@ nav.main-nav .nav-link {
   color: #fff;
 }
 
+.primary-content p {
+  line-height: 2rem;
+}
+
 .sidebar .business-hours {
   background-color: #8ed3cc;
   color: #fff;
