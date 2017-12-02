@@ -43,7 +43,7 @@
       </p>
     </main>
     
-    <aside class="col-lg-4 pt-4 pt-lg-0" id="discount">
+    <aside class="col-lg-4 pt-4 pt-lg-0" id="product_description">
       <h3 class="text-uppercase text-center mt-5">Description</h3>
       <p class="text-center lead p-3">
         In feugiat est arcu, et feugiat est 
@@ -51,7 +51,7 @@
       </p>
       
       <h3 class="text-uppercase text-center mt-2">Price</h3>
-      <p class="text-center lead p-3">$25</p>
+      <p class="text-center lead p-3 display-4">$25</p>
     </aside>
   </div>
 </div>

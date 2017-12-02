@@ -299,12 +299,18 @@ nav.main-nav .nav-link {
   line-height: 2.4rem;
 }
 
-#discount {
+#discount,
+#product_description{
   background-color: #8ed3cc;
   color: #fff;
   -moz-background-clip: content-box;
   -webkit-background-clip: content-box;
   background-clip: content-box;
+}
+
+#discount h3,
+#product_description h3{
+  color: #fff;
 }
 
 #discount .coupon {
@@ -318,8 +324,4 @@ nav.main-nav .nav-link {
 
 #discount .coupon p span {
   display: block;
-}
-
-#discount h3 {
-  color: #fff;
 }
