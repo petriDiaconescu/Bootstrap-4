@@ -297,4 +297,7 @@ nav.main-nav .nav-link {
 #discount {
   background-color: #8ed3cc;
   color: #fff;
+  -moz-background-clip: content-box;
+  -webkit-background-clip: content-box;
+  background-clip: content-box;
 }
