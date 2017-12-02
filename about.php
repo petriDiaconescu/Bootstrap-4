@@ -35,6 +35,10 @@
       </p>
       
       <div class="facilities-gallery">
+        <h3 class="text-center text-uppercase p-4">
+          <span class="text-lowercase">Checkout our</span>facilities
+        </h3>
+        
         <a href="" data-target="#image_1" data-toggle="modal">
           <img src="img/gallery_thumb_01.jpg" alt="" class="rounded" />
         </a>
