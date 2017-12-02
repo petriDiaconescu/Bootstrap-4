@@ -331,3 +331,15 @@ nav.main-nav .nav-link {
   border: 2px solid #9a9a9a;
   background-color: #fff;
 }
+
+.contact-form .btn-primary {
+  background-color: #8ed3cc;
+  border: none;
+  border-radius: 0;
+  padding: 1rem 6rem;
+}
+
+.contact-form .btn-primary:hover {
+  cursor: pointer;
+  background-color: #6bbdb5;
+}
