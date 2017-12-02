@@ -33,6 +33,25 @@
         Interdum et malesuada fames ac ante ipsum primis in 
         faucibus.
       </p>
+      
+      <div class="facilities-gallery">
+        <a href="" data-target="#image_1" data-toggle="modal">
+          <img src="img/gallery_thumb_01.jpg" alt="" class="rounded" />
+        </a>
+        
+        <div class="modal fade" id="image_1" tabindex="-1" 
+          role="dialog" aria-labelledby="image_1" 
+          aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-body">
+                <img src="img/gallery_large_01.jpg" alt="" class="img-fluid"/>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    
     </main>
     
     <aside class="col-lg-4 pt-4 pt-lg-0">
