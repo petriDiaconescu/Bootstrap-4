@@ -42,7 +42,7 @@
         <div class="modal fade" id="image_1" tabindex="-1" 
           role="dialog" aria-labelledby="image_1" 
           aria-hidden="true">
-          <div class="modal-dialog" role="document">
+          <div class="modal-dialog modal-lg" role="document">
             <div class="modal-content">
               <div class="modal-body">
                 <img src="img/gallery_large_01.jpg" alt="" class="img-fluid"/>
