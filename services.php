@@ -116,9 +116,17 @@
       </div><!--#services  -->
     </main>
     
-    <aside class="col-lg-4 pt-4 pt-lg-0">
-      <div class="sidebar business-hours p-3">
+    <aside class="col-lg-4 pt-4 pt-lg-0 discount">
+      <div class="p-3">
+        <div class="text-center text-uppercase mt-4">First time customers</div>
+        <p class="lead text-center mt-4">Get 20% off in any service, with this coupon</p>
         
+        <div class="coupon p-1">
+          <p class="text-center text-uppercase">
+            <span class="display-4">20 % off</span>
+            in any service
+          </p>
+        </div>
       </div>
     </aside>
   </div>
