@@ -38,6 +38,12 @@
         <a href="" data-target="#image_1" data-toggle="modal">
           <img src="img/gallery_thumb_01.jpg" alt="" class="rounded" />
         </a>
+        <a href="" data-target="#image_2" data-toggle="modal">
+          <img src="img/gallery_thumb_02.jpg" alt="" class="rounded" />
+        </a>
+        <a href="" data-target="#image_3" data-toggle="modal">
+          <img src="img/gallery_thumb_03.jpg" alt="" class="rounded" />
+        </a>
         
         <div class="modal fade" id="image_1" tabindex="-1" 
           role="dialog" aria-labelledby="image_1" 
@@ -48,9 +54,31 @@
                 <img src="img/gallery_large_01.jpg" alt="" class="img-fluid"/>
               </div>
             </div>
-          </div>
-        </div>
-      </div>
+          </div><!-- modal-content -->
+        </div><!-- modal -->
+        <div class="modal fade" id="image_2" tabindex="-1" 
+          role="dialog" aria-labelledby="image_2" 
+          aria-hidden="true">
+          <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+              <div class="modal-body">
+                <img src="img/gallery_large_02.jpg" alt="" class="img-fluid"/>
+              </div>
+            </div>
+          </div><!-- modal-content -->
+        </div><!-- modal -->
+        <div class="modal fade" id="image_3" tabindex="-1" 
+          role="dialog" aria-labelledby="image_3" 
+          aria-hidden="true">
+          <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+              <div class="modal-body">
+                <img src="img/gallery_large_03.jpg" alt="" class="img-fluid"/>
+              </div>
+            </div>
+          </div><!-- modal-content -->
+        </div><!-- modal -->
+      </div><!-- facilities-gallery -->
     
     </main>
     
