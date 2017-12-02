@@ -294,6 +294,11 @@ nav.main-nav .nav-link {
   color: #fff;
 }
 
+#services .card-block {
+  font-size: 1.2rem;
+  line-height: 2.4rem;
+}
+
 #discount {
   background-color: #8ed3cc;
   color: #fff;
