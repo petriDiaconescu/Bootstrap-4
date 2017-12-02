@@ -14,7 +14,9 @@
     <header class="site-header container">
       <div class="row justify-content-between">
         <div class="col-8 offset-2 col-lg-4 offset-lg-0">
-          <img src="img/logo.svg" alt="" class="img-fluid mx-auto d-block" />
+          <a href="index.php">
+            <img src="img/logo.svg" alt="" class="img-fluid mx-auto d-block" />
+          </a>
         </div> 
         <div class="col-12 col-lg-4">
           <nav class="socials text-center text-md-right pt-3">
