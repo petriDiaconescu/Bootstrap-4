@@ -123,7 +123,7 @@
         
         <div class="coupon p-1">
           <p class="text-center text-uppercase">
-            <span class="display-4">20 % off</span>
+            <span class="display-4 pt-3">20 % off</span>
             in any service
           </p>
         </div>
