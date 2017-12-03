@@ -123,13 +123,23 @@
           try{
             require_once 'inc/db.php';
             $sql = 'SELECT `id`, `name`, `image_thumb`, `price`, `short_description` FROM `products` LIMIT 4';
-            $result = $db->query($sql);
+            $results = $db->query($sql);
           } catch (Exception $e) {
             $error = $e->getMessage();
             echo $error;
           }
  
-          echo $result->num_rows;
+          $rows =  $results->num_rows;
+          
+          if(!$rows){
+            echo 'No results found';
+          } else {
+            while($product = $results->fetch_assoc()){
+              echo "<pre>";
+              var_dump($product);
+              echo "</pre>";
+            }
+          }
         ?>
         <div class="col-6 col-md-3 mb-5 mb-md-0">
           <div class="card">
