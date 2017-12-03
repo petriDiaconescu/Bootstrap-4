@@ -17,14 +17,14 @@
     <main class="col-12 col-md-10 offset-md-1 primary-content"> 
       <h2 class="d-block d-md-none text-uppercase text-center">Products</h2>
       
-      <form action="send.php" method="POST" class="p-5 mt-5 contact-form">
+      <form id="contact_form" action="send.php" method="POST" class="p-5 mt-5 contact-form">
         <div class="form-group">
           <label for="name">Name</label>
-          <input type="text" class="form-control" id="name" name="name" placeholder="Your Name" required />
+          <input type="text" class="form-control" id="name" name="name" placeholder="Your Name" />
         </div>
         <div class="form-group">
           <label for="email">Email</label>
-          <input type="email" class="form-control" id="email" name="email" placeholder="Your Email" required />
+          <input type="email" class="form-control" id="email" name="email" placeholder="Your Email" />
         </div>
         <div class="form-group">
           <label for="message">Message</label>
