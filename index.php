@@ -134,27 +134,27 @@
           if(!$rows){
             echo 'No results found';
           } else {
-            while($product = $results->fetch_assoc()){
-              echo "<pre>";
-              var_dump($product);
-              echo "</pre>";
+            while($product = $results->fetch_assoc()){ 
+            ?>
+              <div class="col-6 col-md-3 mb-5 mb-md-0">
+                <div class="card">
+                  <a href="product.php?<?php echo $product['id']; ?>">
+                    <img src="img/<?php echo $product['image_thumb']?>" alt="" class="card-img-top img-fluid" />
+                    <div class="card-block">
+                      <h3 class="card-title text-center text-uppercase mb-0"><?php echo $product['name']?></h3>
+                      <p class="card-text text-uppercase">
+                        <?php echo $product['short_description']?>
+                      </p>
+                      <p class="price text-center mb-0">$ <?php echo $product['price']?></p>
+                    </div>
+                  </a>
+                </div>
+              </div><!-- col-6 col-md-3   -->
+            <?php
             }
           }
         ?>
-        <div class="col-6 col-md-3 mb-5 mb-md-0">
-          <div class="card">
-            <a href="">
-              <img src="img/product_thumb_01.jpg" alt="" class="card-img-top img-fluid" />
-              <div class="card-block">
-                <h3 class="card-title text-center text-uppercase mb-0">Product 1</h3>
-                <p class="card-text text-uppercase">Vivamus auctor, velit ut tincidunt 
-                  molestie, elit metus iaculis sapien
-                </p>
-                <p class="price text-center mb-0">$ 25</p>
-              </div>
-            </a>
-          </div>
-        </div><!-- col-6 col-md-3   -->
+        
       
         <?php  $db->close(); ?>
       </div>
