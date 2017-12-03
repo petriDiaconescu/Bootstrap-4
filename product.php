@@ -7,6 +7,23 @@
   if(filter_var($id, FILTER_VALIDATE_INT) === FALSE){
     die('No valid id!');
   }
+  
+  try{
+    require_once 'inc/db.php';
+    $sql = 'SELECT `name`, `image_full`, `price`, `short_description`, `description` FROM `products` LIMIT 1';
+    $results = $db->query($sql);
+  } catch (Exception $e) {
+    $error = $e->getMessage();
+    echo $error;
+  }
+  
+  $rows =  $results->num_rows;
+          
+  if(!$rows){
+    echo 'No results found';
+  } else {
+    while($product = $results->fetch_assoc()){
+    
 ?>
 <div class="container pt-4">
   <div class="row no-gutters">
@@ -62,5 +79,8 @@
 </div>
 
 <?php 
+    } //if top statement
+  }// while top statement
+  $db->close();
   include 'templates/footer.php' 
 ?>
