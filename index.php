@@ -145,7 +145,8 @@
             </a>
           </div>
         </div><!-- col-6 col-md-3   -->
-        
+      
+        <?php  $db->close(); ?>
       </div>
     </div>
     
