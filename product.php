@@ -2,6 +2,11 @@
   include 'templates/header.php';
   include 'templates/navigation.php';
   $title = 'Services';
+  
+  $id = $_GET['product'];
+  if(filter_var($id, FILTER_VALIDATE_INT) === FALSE){
+    die('No valid id!');
+  }
 ?>
 <div class="container pt-4">
   <div class="row no-gutters">

@@ -138,7 +138,7 @@
             ?>
               <div class="col-6 col-md-3 mb-5 mb-md-0">
                 <div class="card">
-                  <a href="product.php?<?php echo $product['id']; ?>">
+                  <a href="product.php?product=<?php echo $product['id']; ?>">
                     <img src="img/<?php echo $product['image_thumb']?>" alt="" class="card-img-top img-fluid" />
                     <div class="card-block">
                       <h3 class="card-title text-center text-uppercase mb-0"><?php echo $product['name']?></h3>
