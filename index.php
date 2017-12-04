@@ -68,8 +68,8 @@
         <div class="col-md-4 col-12 text-center mb-4 mb-md-0">
           <div class="image-links">
             <img src="img/service_01.jpg" alt="" class="img-fluid" />
-            <div class="row no-gutters">
-              <div class="col-8 offset-2 col-md-10 offset-md-1 image-info pt-4">
+            <div class="row no-gutters justify-content-center">
+              <div class="col-8 col-md-10 image-info pt-4">
                 <h3 class="text-center text-uppercase"><span class="text-lowercase">learn more</span>About Us</h3>
                 <a href="" class="btn btn-success text-uppercase btn-block mt-4 py-3">read more</a>
               </div>
@@ -79,8 +79,8 @@
         <div class="col-md-4 col-12 text-center mb-4 mb-md-0">
           <div class="image-links">
             <img src="img/service_02.jpg" alt="" class="img-fluid" />
-            <div class="row no-gutters">
-              <div class="col-8 offset-2 col-md-10 offset-md-1 image-info pt-4">
+            <div class="row no-gutters justify-content-center">
+              <div class="col-8 col-md-10 image-info pt-4">
                 <h3 class="text-center text-uppercase"><span class="text-lowercase">about our</span>services</h3>
                 <a href="" class="btn btn-success text-uppercase btn-block mt-4 py-3">read more</a>
               </div>
@@ -90,8 +90,8 @@
         <div class="col-md-4 col-12 text-center mb-4 mb-md-0">
           <div class="image-links">
             <img src="img/service_03.jpg" alt="" class="img-fluid" />
-            <div class="row no-gutters">
-              <div class="col-8 offset-2 col-md-10 offset-md-1 image-info pt-4">
+            <div class="row no-gutters justify-content-center">
+              <div class="col-8 col-md-10 image-info pt-4">
                 <h3 class="text-center text-uppercase"><span class="text-lowercase">visit our</span>store</h3>
                 <a href="" class="btn btn-success text-uppercase btn-block mt-4 py-3">read more</a>
               </div>
