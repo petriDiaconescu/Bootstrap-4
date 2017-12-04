@@ -10,8 +10,8 @@ $(document).ready(function(){
       
       nameDiv.find('label').addClass('col-form-label');
     } else {
-      nameField.addClass('form-control-success');
-      nameDiv.addClass('has-success')
+      nameField.addClass('form-control-success').removeClass('form-control-danger');
+      nameDiv.addClass('has-success').removeClass('has-danger')
         .find('small').html('Valid!');
       nameDiv.find('label').addClass('col-form-label');
     }
