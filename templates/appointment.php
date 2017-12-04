@@ -1,6 +1,6 @@
 <div class="appointment container-fluid py-5">
-  <div class="row">
-    <div class="col-12 col-md-8 offset-md-2 col-lg-5 offset-lg-3 py-3 text-center">
+  <div class="row justify-content-center">
+    <div class="col-12 col-md-8 col-lg-5 py-3 text-center">
       <h3 class="text-uppercase">make an appointment</h3>
       <p>Vivamus sit amet tortor tristique, maximus risus et, gravida velit. 
         Sed maximus semper leo, ac maximus arcu placerat id. Praesent non 
