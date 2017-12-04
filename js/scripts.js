@@ -66,7 +66,11 @@ $(document).ready(function(){
         url: contact_form.attr('action'),
         data: contact_form.serialize()
       })
-      .done(function(data){});
+      .done(function(data){
+        var result = data;
+        var response = JSON.parse(result);
+        console.log(response);
+      });
     } 
   });
 });
