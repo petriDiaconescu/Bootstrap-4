@@ -1,4 +1,11 @@
 $(document).ready(function(){
+  //Fixing menu on scroll
+  var mainNavHeight = $('.navigation').innerHeight();
+  var mainNavOffset = $('.navigation').offset();
+  var realDistance = mainNavOffset.top + mainNavHeight;
+  
+  console.log(realDistance);
+  
   $('#contact_form').on('submit', function(event){
     event.preventDefault();
     
