@@ -12,7 +12,7 @@
   </head>
   <body>
     <header class="site-header container">
-      <div class="row justify-content-between">
+      <div class="row justify-content-center">
         <div class="col-8 offset-2 col-lg-4 offset-lg-0">
           <a href="index.php">
             <img src="img/logo.svg" alt="" class="img-fluid mx-auto d-block" />
