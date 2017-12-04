@@ -25,11 +25,13 @@
         </div>
         <div class="form-group">
           <label for="email">Email</label>
-          <input type="email" class="form-control" id="email" name="email" placeholder="Your Email" />          
+          <input type="text" class="form-control" id="email" name="email" placeholder="Your Email" />
+          <small class="form-text text-muted"></small>
         </div>
         <div class="form-group">
           <label for="message">Message</label>
           <textarea name="message" id="message" rows="6" class="form-control"></textarea>
+          <small class="form-text text-muted"></small>
         </div>
         
         <input type="submit" class="btn btn-primary text-uppercase" name="submit" value="Submit" />
