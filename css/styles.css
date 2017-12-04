@@ -86,6 +86,10 @@ h3 span {
   background-color: #fff;
 }
 
+.flex-sm-row {
+  width: 100%;
+}
+
 .navbar-brand {
   color: #fff!important;
 }
