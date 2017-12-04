@@ -6,13 +6,13 @@ $(document).ready(function(){
     if (name.length < 3){
       nameField.addClass('form-control-danger');
       nameDiv.addClass('has-danger')
-        .append('<small class="form-text text-muted">Not a valid name</small>');
+        .find('small').html('Error!');
       
       nameDiv.find('label').addClass('col-form-label');
     } else {
       nameField.addClass('form-control-success');
       nameDiv.addClass('has-success')
-        .append('<small class="form-text text-muted">Valid!</small>');
+        .find('small').html('Valid!');
       nameDiv.find('label').addClass('col-form-label');
     }
     
