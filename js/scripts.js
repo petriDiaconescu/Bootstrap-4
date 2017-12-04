@@ -8,8 +8,10 @@ $(document).ready(function(){
     var scroll = $(window).scrollTop();
     if(scroll > realDistance){
       $('.navigation').addClass('fixed-top').removeClass('mt-4');
+      $('body').css('margin-top', mainNavHeight + 'px');
     } else {
       $('.navigation').removeClass('fixed-top').addClass('mt-4');
+      $('body').css('margin-top', '0px');
     }
   });
   
