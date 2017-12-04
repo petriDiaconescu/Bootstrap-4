@@ -4,7 +4,12 @@ $(document).ready(function(){
   var mainNavOffset = $('.navigation').offset();
   var realDistance = mainNavOffset.top + mainNavHeight;
   
-  console.log(realDistance);
+  $(window).scroll(function(){
+    var scroll = $(window).scrollTop();
+    if(scroll > realDistance){
+      $('.navigation').addClass('fixed-top').removeClass('mt-4');
+    }
+  });
   
   $('#contact_form').on('submit', function(event){
     event.preventDefault();
