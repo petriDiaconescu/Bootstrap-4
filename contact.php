@@ -35,6 +35,7 @@
         </div>
         
         <input type="submit" class="btn btn-primary text-uppercase" name="submit" value="Submit" />
+        <div id="output" class="alert alert-success text-center mt-3"></div>
       </form>
     </main>  
   </div>

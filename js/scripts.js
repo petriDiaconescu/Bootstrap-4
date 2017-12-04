@@ -69,7 +69,7 @@ $(document).ready(function(){
       .done(function(data){
         var result = data;
         var response = JSON.parse(result);
-        console.log(response.message);
+        $('#output').append(response.message);
       });
     } 
   });
