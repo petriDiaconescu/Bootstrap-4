@@ -2,6 +2,7 @@ $(document).ready(function(){
   $('#contact_form').on('submit', function(event){
     event.preventDefault();
     
+    var errors = [];
     // Validating the name input field
     var name = $('#name').val();
     var nameField = $('#name');
@@ -13,6 +14,7 @@ $(document).ready(function(){
         .find('small').html('Error!');
       
       nameDiv.find('label').addClass('col-form-label');
+      errors.push("1");
     } else {
       nameField.addClass('form-control-success').removeClass('form-control-danger');
       nameDiv.addClass('has-success').removeClass('has-danger')
@@ -31,6 +33,7 @@ $(document).ready(function(){
         .find('small').html('Error!');
       
       emailDiv.find('label').addClass('col-form-label');
+      errors.push("2");
     } else {
       emailField.addClass('form-control-success').removeClass('form-control-danger');
       emailDiv.addClass('has-success').removeClass('has-danger')
@@ -48,11 +51,18 @@ $(document).ready(function(){
         .find('small').html('Error!');
       
       messageDiv.find('label').addClass('col-form-label');
+      errors.push("3");
     } else {
       messageField.addClass('form-control-success').removeClass('form-control-danger');
       messageDiv.addClass('has-success').removeClass('has-danger')
         .find('small').html('Valid!');
       messageDiv.find('label').addClass('col-form-label');
+    }
+    
+    if(errors.length > 0){
+      alert("Fix errors");
+    } else {
+      alert("Yes");
     }
     
   });
