@@ -8,7 +8,9 @@
         aria-label="Toggle Navigation">
           <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="container">
+      <a href="#" class="navbar-brand">Carolina Spa</a>
+      
+      <div class="collapse navbar-collapse" id="main-navigation">
         <ul class="nav nav-justified flex-column flex-sm-row">
           <li class="nav-item">
             <a href="index.php" class="nav-link">Home</a>
