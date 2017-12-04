@@ -59,11 +59,16 @@ $(document).ready(function(){
       messageDiv.find('label').addClass('col-form-label');
     }
     
+    var contact_form = $('#contact_form');
     if(!errors.length > 0){
-      $.ajax({})
-        .done(function(data){
-          console.log(data);
-        });
+      $.ajax({
+        type: contact_form.attr('method'),
+        url: contact_form.attr('action'),
+        data: contact_form.serialize()
+      })
+      .done(function(data){
+        console.log(data);
+      });
     } 
     
     
