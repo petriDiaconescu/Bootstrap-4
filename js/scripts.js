@@ -69,7 +69,7 @@ $(document).ready(function(){
       .done(function(data){
         var result = data;
         var response = JSON.parse(result);
-        $('#output').append(response.message);
+        $('#output').append(response.message).addClass('d-block').fadeIn();
       });
     } 
   });
