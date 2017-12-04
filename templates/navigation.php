@@ -1,5 +1,13 @@
   <div class="navigation mt-4 py-1">
-    <nav class="main-nav py-1">
+    <nav class="main-nav py-1 navbar navbar-toggleable-md navbar-light bg-faded">
+      <button type="button" 
+        class="navbar-toggler navbar-toggler-right"
+        data-toggle="collapse"
+        data-target="#main-navigation"
+        aria-expanded="false"
+        aria-label="Toggle Navigation">
+          <span class="navbar-toggler-icon"></span>
+      </button>
       <div class="container">
         <ul class="nav nav-justified flex-column flex-sm-row">
           <li class="nav-item">
