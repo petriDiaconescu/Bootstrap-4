@@ -59,11 +59,12 @@ $(document).ready(function(){
       messageDiv.find('label').addClass('col-form-label');
     }
     
-    if(errors.length > 0){
-      alert("Fix errors");
-    } else {
-      alert("Yes");
-    }
+    if(!errors.length > 0){
+      $.ajax({})
+        .done(function(data){
+          console.log(data);
+        });
+    } 
     
     
   });
