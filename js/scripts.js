@@ -1,5 +1,7 @@
 $(document).ready(function(){
   $('#contact_form').on('submit', function(event){
+    event.preventDefault();
+    
     var errors = [];
     // Validating the name input field
     var name = $('#name').val();
@@ -66,7 +68,5 @@ $(document).ready(function(){
       })
       .done(function(data){});
     } 
-    
-    event.preventDefault();
   });
 });

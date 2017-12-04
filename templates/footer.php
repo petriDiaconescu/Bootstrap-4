@@ -59,7 +59,7 @@
       </div><!-- row -->
     </div><!-- container -->
   </footer>
-  <script src="js/jquery.slim.js"></script>
+  <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
     <script src="js/tether.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/scripts.js"></script>
