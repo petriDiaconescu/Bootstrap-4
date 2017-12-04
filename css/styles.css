@@ -86,7 +86,9 @@ h3 span {
   background-color: #fff;
 }
 
-
+.navbar-brand {
+  color: #fff!important;
+}
 nav.main-nav {
   background-image: url(../img/border_horizontal.png),
                     url(../img/border_horizontal.png);
