@@ -13,8 +13,8 @@
 </div>
 
 <div class="container py-4">
-  <div class="row">
-    <main class="col-12 col-md-10 offset-md-1 primary-content"> 
+  <div class="row justify-content-center">
+    <main class="col-12 col-md-10 primary-content"> 
       <h2 class="d-block d-md-none text-uppercase text-center">Products</h2>
       
       <form id="contact_form" action="send.php" method="POST" class="p-5 mt-5 contact-form">
