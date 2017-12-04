@@ -17,10 +17,10 @@
         </div>
         <div class="col-md-4 pb-4 pb-md-0">
           <h3 class="text-uppercase text-center pb-4">Contact</h3> 
-          <p class="mb-0">66 East Sunnyslope Avenue</p>
-          <p>Lansdowne, PA 19050</p>
+          <p class="mb-0 text-center">66 East Sunnyslope Avenue</p>
+          <p class="text-center">Lansdowne, PA 19050</p>
           <div class="social-nav">
-            <nav class="socials text-left pt-3">
+            <nav class="socials text-center pt-3">
               <ul class="p-0">
                 <li>
                   <a href="http://facebook.com">
