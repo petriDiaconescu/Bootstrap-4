@@ -1,5 +1,5 @@
   <div class="navigation mt-4 py-1">
-    <nav class="main-nav py-1 navbar navbar-toggleable-sm navbar-light bg-faded">
+    <nav class="main-nav py-1 navbar navbar-expand-md navbar-light bg-faded">
       <button type="button" 
         class="navbar-toggler navbar-toggler-right"
         data-toggle="collapse"
