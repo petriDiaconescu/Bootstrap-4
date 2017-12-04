@@ -78,6 +78,15 @@ h3 span {
   background-color: #8ed3cc;
 }
 
+.bg-faded {
+  background-color: transparent;
+}
+
+.navbar-toggler {
+  background-color: #8ed3cc;
+}
+
+
 nav.main-nav {
   background-image: url(../img/border_horizontal.png),
                     url(../img/border_horizontal.png);
