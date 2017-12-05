@@ -12,6 +12,7 @@ add_action('wp_enqueue_scripts', 'carolinaspa_styles');
 //Setup theme
 function carolinaspa_setup(){
   register_nav_menus(array(
+    'main_menu' =>  esc_html__('Main_Menu', 'carolinaspa'),   
     'social_menu' =>  esc_html__('Social', 'carolinaspa')    
   ));
 }
