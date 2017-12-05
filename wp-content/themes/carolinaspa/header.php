@@ -16,38 +16,21 @@
           </a>
         </div> 
         <div class="col-12 col-lg-4">
-          <nav class="socials text-center text-md-right pt-3">
-            <ul>
-              <li>
-                <a href="http://facebook.com">
-                  <span class="sr-only">Facebook</span>
-                </a>
-              </li>
-              <li>
-                <a href="http://twitter.com">
-                  <span class="sr-only">Twitter</span>
-                </a>
-              </li>
-              <li>
-                <a href="http://instagram.com">
-                  <span class="sr-only">Instagram</span>
-                </a>
-              </li>
-              <li>
-                <a href="http://pinterest.com">
-                  <span class="sr-only">Pinterest</span>
-                </a>
-              </li>
-              <li>
-                <a href="http://youtube.com">
-                  <span class="sr-only">Youtube</span>
-                </a>
-              </li>
-            </ul>
-            
-          </nav>
+          <?php 
+            $args = array(
+              'container'       => 'nav',
+              'container_class' => 'socials text-center text-md-right pt-3',
+              'link_before'     => '<span class="sr-only">',
+              'link_after'      => '</span>',
+              'theme_location'  => 'social_menu'  
+            );
+            wp_nav_menu($args);
+          ?>
         </div>
+        
       </div><!-- justify-content-between -->
+      
+      
     </header>
 
 
