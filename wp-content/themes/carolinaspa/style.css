@@ -108,8 +108,8 @@ h3 span {
   color: #fff!important;
 }
 nav.main-nav {
-  background-image: url(../img/border_horizontal.png),
-                    url(../img/border_horizontal.png);
+  background-image: url(img/border_horizontal.png),
+                    url(img/border_horizontal.png);
   background-repeat: repeat-x;  
   background-position: 0px top, 0px bottom;
 }
