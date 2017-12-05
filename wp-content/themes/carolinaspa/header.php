@@ -12,7 +12,7 @@
       <div class="row justify-content-center justify-content-lg-between">
         <div class="col-8 col-lg-4">
           <a href="index.php">
-            <img src="img/logo.svg" alt="" class="img-fluid mx-auto d-block" />
+            <img src="<?php echo get_template_directory_uri() ?>/img/logo.svg" alt="" class="img-fluid mx-auto d-block" />
           </a>
         </div> 
         <div class="col-12 col-lg-4">
