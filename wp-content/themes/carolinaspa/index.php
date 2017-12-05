@@ -1,1 +1,1 @@
-<h1>Load from Carolina Spa</h1>
+<?php get_header(); ?>
