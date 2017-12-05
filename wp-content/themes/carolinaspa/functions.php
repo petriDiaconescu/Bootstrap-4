@@ -29,3 +29,15 @@ function carolinaspa_custom_li_class($classes, $item, $args){
 }
 
 add_filter('nav_menu_css_class', 'carolinaspa_custom_li_class', 1, 3);
+
+//Add bootstrap nav-link class to the <a> of the Main menu
+function carolinaspa_custom_anchor_class($atts, $item, $args){
+  if($args->theme_location == 'main_menu'){
+    $class = 'class';
+    $atts[$class] = 'nav-link';
+  }
+  
+  return $atts;
+}
+
+add_filter('nav_menu_link_attributes', 'carolinaspa_custom_anchor_class', 10, 3);
