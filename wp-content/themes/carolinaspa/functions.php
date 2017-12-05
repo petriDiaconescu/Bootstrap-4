@@ -41,3 +41,18 @@ function carolinaspa_custom_anchor_class($atts, $item, $args){
 }
 
 add_filter('nav_menu_link_attributes', 'carolinaspa_custom_anchor_class', 10, 3);
+
+//widgets
+function carolinaspa_widgets(){
+  register_sidebar(array(
+    'name'            => 'Footer Widget 1',
+    'id'              => 'footer_widget_1',
+    'before_widget'   => '<div id="%1$s">',
+    'after_widget'    => '</div>',
+    'before_title'    => '<h3 class="text-uppercase text-center pb-4">',
+    'after_title'     => '</h3>'  
+  ));
+}
+
+
+add_action('widgets_init', 'carolinaspa_widgets');

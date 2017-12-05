@@ -2,12 +2,11 @@
     <div class="container">
       <div class="row">
         <div class="col-md-4">
-          <h3 class="text-uppercase text-center pb-4">About Us</h3>
-          <p class="text-justify">Nullam a massa a risus congue egestas. Morbi venenatis, 
-            ex at tincidunt cursus, lorem arcu iaculis mi, vel vehicula 
-            elit nisl eget sapien. Proin vel nisi at augue cursus hendrerit. 
-            Sed consectetur pulvinar arcu eu maximus
-          </p>
+          <?php 
+            if (is_active_sidebar('footer_widget_1')):
+              dynamic_sidebar('footer_widget_1');
+            endif;
+          ?>    
         </div>
         <div class="col-md-4 pb-4 pb-md-0">
           <h3 class="text-uppercase text-center pb-4">Open hours</h3> 
