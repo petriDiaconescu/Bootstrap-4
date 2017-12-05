@@ -18,3 +18,12 @@ function carolinaspa_setup(){
 }
 
 add_action('after_setup_theme', 'carolinaspa_setup');
+
+//Add bootstrap nav-item class to the <li> of the Main menu
+function carolinaspa_custom_li_class($classes, $item, $args){
+  echo '<pre>';
+  var_dump($classes);
+  echo '<pre>';
+}
+
+add_filter('nav_menu_css_class', 'carolinaspa_custom_li_class', 1, 3);
