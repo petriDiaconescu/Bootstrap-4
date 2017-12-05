@@ -9,15 +9,20 @@
           ?>    
         </div>
         <div class="col-md-4 pb-4 pb-md-0">
-          <h3 class="text-uppercase text-center pb-4">Open hours</h3> 
-          <p class="text-center mb-0">Mon-Fri: 9 AM - 7 PM</p>
-          <p class="text-center mb-0">Saturday: 10 AM - 2 PM</p>
-          <p class="text-center mb-0">Sunday: Closed</p>
+          <?php 
+            if (is_active_sidebar('footer_widget_2')):
+              dynamic_sidebar('footer_widget_2');
+            endif;
+          ?> 
+          
         </div>
         <div class="col-md-4 pb-4 pb-md-0">
-          <h3 class="text-uppercase text-center pb-4">Contact</h3> 
-          <p class="mb-0">66 East Sunnyslope Avenue</p>
-          <p>Lansdowne, PA 19050</p>
+          <?php 
+            if (is_active_sidebar('footer_widget_3')):
+              dynamic_sidebar('footer_widget_3');
+            endif;
+          ?> 
+          
           <div class="social-nav">
             
             <?php 
