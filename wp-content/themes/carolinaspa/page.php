@@ -29,20 +29,17 @@
             if($gallery){
               preg_match('/\[gallery.*ids=.(.*).\]/', $gallery, $ids);
               $images_id = explode(',', $ids[1]);
-              echo "<pre>";
-              var_dump($images_id);
-              echo "</pre>";
+              
+              foreach($images_id as $id):?>
+                <a href="" data-target="#image_<?php echo $id?>" data-toggle="modal">
+                  <?php $image_url = wp_get_attachment_image_src($id, 'thumbnail') ?>
+                  <pre><?php var_dump($image_url)?></pre>
+                  <img src="<?php echo $image_url[0] ?>" alt="" class="rounded" />
+                </a>
+              <?php
+              endforeach;
             }
           ?>
-          <a href="" data-target="#image_1" data-toggle="modal">
-            <img src="img/gallery_thumb_01.jpg" alt="" class="rounded" />
-          </a>
-          <a href="" data-target="#image_2" data-toggle="modal">
-            <img src="img/gallery_thumb_02.jpg" alt="" class="rounded" />
-          </a>
-          <a href="" data-target="#image_3" data-toggle="modal">
-            <img src="img/gallery_thumb_03.jpg" alt="" class="rounded" />
-          </a>
 
           <div class="modal fade" id="image_1" tabindex="-1" 
             role="dialog" aria-labelledby="image_1" 
