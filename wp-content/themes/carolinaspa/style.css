@@ -328,8 +328,7 @@ nav.main-nav .nav-link {
   line-height: 2.4rem;
 }
 
-#discount,
-#product_description{
+aside {
   background-color: #8ed3cc;
   color: #fff;
   -moz-background-clip: content-box;
@@ -337,21 +336,20 @@ nav.main-nav .nav-link {
   background-clip: content-box;
 }
 
-#discount h3,
-#product_description h3{
+aside h2 {
   color: #fff;
 }
 
-#discount .coupon {
+aside .coupon {
   border: 3px dashed white;
 }
 
-#discount .coupon p {
+aside .coupon p {
   font-family: 'Lato', sans-serif;
   font-size: 2rem;
 }
 
-#discount .coupon p span {
+aside .coupon p span {
   display: block;
 }
 

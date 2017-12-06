@@ -126,8 +126,8 @@ function carolinaspa_widgets(){
     'id'              => 'sidebar_widget_1',
     'before_widget'   => '<div id="%1$s">',
     'after_widget'    => '</div>',
-    'before_title'    => '<h3 class="text-uppercase text-center pb-4">',
-    'after_title'     => '</h3>'  
+    'before_title'    => '<h2 class="text-center text-uppercase pt-4">',
+    'after_title'     => '</h2>'  
   ));
 }
 

@@ -13,7 +13,7 @@
   </div>
 
   <div class="container">
-    <div class="row">
+    <div class="row  mt-lg-4">
       <main class="col-lg-8 primary-content">
         <h2 class="d-block d-md-none text-center text-uppercase"><?php the_title() ?></h2>
         <?php the_content() ?>
