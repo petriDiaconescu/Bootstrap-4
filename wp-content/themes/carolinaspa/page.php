@@ -7,7 +7,7 @@
     <div class="row no-gutters">
       <div class="col-12 hero">
         <img src="img/about_us.jpg" alt="" class="img-fluid"/>
-        <h2 class="text-uppercase d-none d-md-block">About Us</h2>
+        <h2 class="text-uppercase d-none d-md-block"><?php the_title() ?></h2>
       </div>
     </div>
   </div>
@@ -15,25 +15,9 @@
   <div class="container">
     <div class="row">
       <main class="col-lg-8 primary-content">
-        <h2 class="d-block d-md-none text-center text-uppercase">About Us</h2>
-        <p>Duis lacus dui, imperdiet at iaculis ut, semper non 
-          lectus. Integer velit massa, pellentesque quis volutpat 
-          non, mattis eget mi. Proin massa tortor, laoreet sit 
-          amet dapibus sit amet, sodales quis metus. Nulla massa 
-          arcu, luctus vitae libero sed, vestibulum mollis est. 
-          Duis nec vehicula ligula. Pellentesque rhoncus 
-          scelerisque luctus. Morbi id interdum est, quis tempor 
-          lectus. Ut faucibus, leo et feugiat fermentum, dolor urna 
-          convallis dolor, vitae fringilla sem odio ut erat. Lorem 
-          ipsum dolor sit amet, consectetur adipiscing elit. 
-        </p>
-        <p>Class aptent taciti sociosqu ad litora torquent per conubia 
-          nostra, per inceptos himenaeos. Duis libero est, 
-          fringilla posuere ornare eget, bibendum eget metus. 
-          Interdum et malesuada fames ac ante ipsum primis in 
-          faucibus.
-        </p>
-
+        <h2 class="d-block d-md-none text-center text-uppercase"><?php the_title() ?></h2>
+        
+        <?php the_content() ?>
         <div class="facilities-gallery">
 
           <h3 class="text-center text-uppercase p-4">
