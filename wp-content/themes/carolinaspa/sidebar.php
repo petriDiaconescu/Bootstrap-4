@@ -4,6 +4,12 @@
     <p class="text-center mt-5">
       <?php the_field('business_hours_text'); ?>
     </p>
+    <?php 
+      $table = get_field('business_hours');
+      echo "<pre>";
+      dump_var($table);
+      echo "</pre>";
+    ?>
     <table class="table table-hover text-center mt-5">
       <thead class="table-danger">
         <tr>
