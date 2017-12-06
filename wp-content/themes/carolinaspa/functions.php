@@ -45,6 +45,11 @@ function carolinaspa_setup(){
   
   //featured images
   add_theme_support('post-thumbnails');
+  
+  //change thumb size
+  update_option('thumbnail_size_w', 216);
+  update_option('thumbnail_size_h', 144);
+  update_option('thumbnail_crop', 1);
 }
 
 add_action('after_setup_theme', 'carolinaspa_setup');
