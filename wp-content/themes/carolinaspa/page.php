@@ -26,9 +26,13 @@
 
           <?php 
             $gallery = get_field('gallery', $post, false);
-            echo "<prev>";
-            var_dump($gallery);
-            echo "</prev>";
+            if($gallery){
+              preg_match('/\[gallery.*ids=.(.*).\]/', $gallery, $ids);
+              $images_id = explode(',', $ids[1]);
+              echo "<pre>";
+              var_dump($images_id);
+              echo "</pre>";
+            }
           ?>
           <a href="" data-target="#image_1" data-toggle="modal">
             <img src="img/gallery_thumb_01.jpg" alt="" class="rounded" />
