@@ -50,6 +50,9 @@ function carolinaspa_setup(){
   update_option('thumbnail_size_w', 216);
   update_option('thumbnail_size_h', 144);
   update_option('thumbnail_crop', 1);
+  
+  //Add new Image Size
+  add_image_size('product_thumb', 400, 266, true);
 }
 
 add_action('after_setup_theme', 'carolinaspa_setup');
