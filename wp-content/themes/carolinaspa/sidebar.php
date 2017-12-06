@@ -13,45 +13,19 @@
           <tr>
             <th class="text-center">Day</th>
             <th class="text-center">From</th>
-            <th class="text-center">To</th>
+            <?php foreach($table['header'] as $th): ?>
+              <th class="text-center"><?php echo $th['c'] ?></th>
+            <?php endforeach; ?>
           </tr>
         </thead>
         <tbody>
+        <?php foreach($table['body'] as $tr): ?>  
           <tr>
-            <td>Monday</td>
-            <td>09:00</td>
-            <td>19:00</td>
+          <?php foreach($tr as $td): ?>    
+            <td><?php echo $td['c'] ?></td>
+          <?php endforeach; ?>   
           </tr>
-          <tr>
-            <td>Tuesday</td>
-            <td>09:00</td>
-            <td>19:00</td>
-          </tr>
-          <tr>
-            <td>Wednesday</td>
-            <td>09:00</td>
-            <td>19:00</td>
-          </tr>
-          <tr>
-            <td>Thursday</td>
-            <td>09:00</td>
-            <td>19:00</td>
-          </tr>
-          <tr>
-            <td>Friday</td>
-            <td>09:00</td>
-            <td>19:00</td>
-          </tr>
-          <tr>
-            <td>Saturday</td>
-            <td>10:00</td>
-            <td>12:00</td>
-          </tr>
-          <tr>
-            <td>Sunday</td>
-            <td>Closed</td>
-            <td>Closed</td>
-          </tr>
+        <?php endforeach; ?>  
         </tbody>
       </table>
     <?php endif; ?>
