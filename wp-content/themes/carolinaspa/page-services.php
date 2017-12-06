@@ -24,7 +24,7 @@
                     href="#service1_desc"
                     aria-expanded="true"
                     aria-controls="service1_desc">
-                      Service 1
+                      <?php the_field('service_1_title') ?>
                   </a>
                 </h3>
               </div><!-- card-header -->
@@ -32,16 +32,7 @@
               <div id="service1_desc" class="collapse show" 
                 role="tabpanel" aria-labelledby="service_1">
                   <div class="card-block">
-                    In a purus eget arcu tempor pharetra. In hac habitasse 
-                    platea dictumst. Donec eget odio et magna mollis faucibus. 
-                    Morbi non euismod magna, non pharetra metus. Pellentesque 
-                    mattis tempor tortor, et faucibus libero consectetur sit amet. 
-                    Fusce eu augue accumsan, pulvinar justo quis, egestas odio. 
-                    Morbi maximus, risus non sagittis porta, magna nibh lacinia 
-                    velit, nec malesuada orci nisl et dolor. Proin scelerisque 
-                    justo non arcu porttitor, sed tempor eros viverra. Sed laoreet 
-                    tortor vitae odio suscipit, in mollis libero tristique. 
-                    Suspendisse vitae maximus ligula.
+                    <?php the_field('service_1_description') ?>
                   </div><!-- card-block   -->
               </div><!--#service1_desc -->
             </div><!-- card -->
@@ -56,7 +47,7 @@
                     href="#service2_desc"
                     aria-expanded="false"
                     aria-controls="service2_desc">
-                      Service 2
+                      <?php the_field('service_2_title') ?>
                   </a>
                 </h3>
               </div><!-- card-header -->
@@ -64,16 +55,7 @@
               <div id="service2_desc" class="collapse" 
                 role="tabpanel" aria-labelledby="service_2">
                   <div class="card-block">
-                    In a purus eget arcu tempor pharetra. In hac habitasse 
-                    platea dictumst. Donec eget odio et magna mollis faucibus. 
-                    Morbi non euismod magna, non pharetra metus. Pellentesque 
-                    mattis tempor tortor, et faucibus libero consectetur sit amet. 
-                    Fusce eu augue accumsan, pulvinar justo quis, egestas odio. 
-                    Morbi maximus, risus non sagittis porta, magna nibh lacinia 
-                    velit, nec malesuada orci nisl et dolor. Proin scelerisque 
-                    justo non arcu porttitor, sed tempor eros viverra. Sed laoreet 
-                    tortor vitae odio suscipit, in mollis libero tristique. 
-                    Suspendisse vitae maximus ligula.
+                    <?php the_field('service_1_description') ?>
                   </div><!-- card-block   -->
               </div><!--#service1_desc -->
             </div><!-- card -->
@@ -88,7 +70,7 @@
                     href="#service3_desc"
                     aria-expanded="false"
                     aria-controls="service3_desc">
-                      Service 3
+                      <?php the_field('service_3_title') ?>
                   </a>
                 </h3>
               </div><!-- card-header -->
@@ -96,16 +78,7 @@
               <div id="service3_desc" class="collapse" 
                 role="tabpanel" aria-labelledby="service_3">
                   <div class="card-block">
-                    In a purus eget arcu tempor pharetra. In hac habitasse 
-                    platea dictumst. Donec eget odio et magna mollis faucibus. 
-                    Morbi non euismod magna, non pharetra metus. Pellentesque 
-                    mattis tempor tortor, et faucibus libero consectetur sit amet. 
-                    Fusce eu augue accumsan, pulvinar justo quis, egestas odio. 
-                    Morbi maximus, risus non sagittis porta, magna nibh lacinia 
-                    velit, nec malesuada orci nisl et dolor. Proin scelerisque 
-                    justo non arcu porttitor, sed tempor eros viverra. Sed laoreet 
-                    tortor vitae odio suscipit, in mollis libero tristique. 
-                    Suspendisse vitae maximus ligula.
+                    <?php the_field('service_1_description') ?>
                   </div><!-- card-block   -->
               </div><!--#service1_desc -->
             </div><!-- card -->
