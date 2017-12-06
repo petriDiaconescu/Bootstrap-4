@@ -304,24 +304,31 @@ function carolinaspa_products_shortcode(){
   );
   
   $products = new WP_Query($args);
+  echo '<div class="row products">';
   while($products->have_posts()): $products->the_post();
   ?>
     <div class="col-6 col-md-3 mb-5 mb-md-0">
       <div class="card">
-        <a href="product.php?product=<?php echo $product['id']; ?>">
-          <img src="img/<?php echo $product['image_thumb']?>" alt="" class="card-img-top img-fluid" />
+        <a href="<?php the_permalink() ?>">
+          <?php 
+            the_post_thumbnail('product_thumb', 
+              array(
+               'class' => 'card-img-top img-fluid')
+              ); 
+          ?>
           <div class="card-block">
-            <h3 class="card-title text-center text-uppercase mb-0"><?php echo $product['name']?></h3>
+            <h3 class="card-title text-center text-uppercase mb-0"><?php the_title() ?></h3>
             <p class="card-text text-uppercase">
-              <?php echo $product['short_description']?>
+              <?php the_field('short_description') ?>
             </p>
-            <p class="price text-center mb-0">$ <?php echo $product['price']?></p>
+            <p class="price text-center mb-0">$ <?php the_field('price') ?></p>
           </div>
         </a>
       </div>
     </div><!-- col-6 col-md-3   -->
   <?php 
   endwhile;  wp_reset_postdata();
+  echo "</div>";
 }
 
 add_shortcode('carolinaspa_products', 'carolinaspa_products_shortcode');
