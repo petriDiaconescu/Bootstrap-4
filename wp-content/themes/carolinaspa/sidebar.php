@@ -1,6 +1,7 @@
 <aside class="col-lg-4 pt-4 pt-lg-0">
   <div class="sidebar business-hours p-3">
     <h2 class="text-center text-uppercase">Business Hours</h2>
+    <?php dynamic_sidebar('sidebar_widget_1'); ?>
     <p class="text-center mt-5">
       <?php the_field('business_hours_text'); ?>
     </p>
