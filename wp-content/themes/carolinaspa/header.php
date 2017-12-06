@@ -11,7 +11,7 @@
     <header class="site-header container">
       <div class="row justify-content-between">
         <div class="col-8 offset-2 col-lg-4 offset-lg-0">
-          <a href="index.php">
+          <a href="<?php echo esc_url(home_url('/'))?>">
             <img src="<?php echo get_template_directory_uri() ?>/img/logo.png" alt="" class="img-fluid mx-auto d-block" />
           </a>
         </div> 
