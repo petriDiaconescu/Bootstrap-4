@@ -7,7 +7,7 @@
     <title>Carolina Spa <?php echo $title; ?></title>
     <?php wp_head(); ?>
   </head>
-  <body>
+  <body <?php body_class() ?>>
     <header class="site-header container">
       <div class="row justify-content-between">
         <div class="col-8 offset-2 col-lg-4 offset-lg-0">

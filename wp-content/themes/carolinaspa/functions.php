@@ -144,7 +144,7 @@ class Business_Hours extends WP_Widget {
 	 */
 	function __construct() {
 		parent::__construct(
-			'foo_widget', // Base ID
+			'business_hours_widget', // Base ID
 			esc_html__( 'Business Hours Widget', 'text_domain' ), // Name
 			array( 'description' => esc_html__( 'Business Hours (Check About Us to make some changes)', 'text_domain' ), ) // Args
 		);

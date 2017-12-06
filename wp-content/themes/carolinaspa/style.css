@@ -370,3 +370,11 @@ aside .coupon p span {
   cursor: pointer;
   background-color: #6bbdb5;
 }
+
+.page-id-13 #text-5 {
+  display: none;
+}
+
+.page-id-15 #business_hours_widget-2 {
+  display: none;
+}
