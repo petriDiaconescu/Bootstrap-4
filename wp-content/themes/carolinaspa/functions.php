@@ -165,11 +165,12 @@ class Business_Hours extends WP_Widget {
       //body of the widget
 		?>
       <div class="sidebar business-hours p-3">
+        <?php $home = get_page_by_title('Home'); ?>
         <p class="text-center mt-5">
-          <?php the_field('business_hours_text'); ?>
+          <?php the_field('business_schedule_text', $home->ID); ?>
         </p>
         <?php 
-          $table = get_field('business_hours');
+          $table = get_field('business_schedule', $home->ID);
           if($table):
         ?>
           <table class="table table-hover text-center mt-5">
