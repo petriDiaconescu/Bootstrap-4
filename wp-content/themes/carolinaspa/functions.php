@@ -162,7 +162,37 @@ class Business_Hours extends WP_Widget {
 		if ( ! empty( $instance['title'] ) ) {
 			echo $args['before_title'] . apply_filters( 'widget_title', $instance['title'] ) . $args['after_title'];
 		}
-		echo esc_html__( 'Hello, World!', 'text_domain' );
+      //body of the widget
+		?>
+      <div class="sidebar business-hours p-3">
+        <p class="text-center mt-5">
+          <?php the_field('business_hours_text'); ?>
+        </p>
+        <?php 
+          $table = get_field('business_hours');
+          if($table):
+        ?>
+          <table class="table table-hover text-center mt-5">
+            <thead class="table-danger">
+              <tr>
+                <?php foreach($table['header'] as $th): ?>
+                  <th class="text-center"><?php echo $th['c'] ?></th>
+                <?php endforeach; ?>
+              </tr>
+            </thead>
+            <tbody>
+            <?php foreach($table['body'] as $tr): ?>
+              <tr>
+              <?php foreach($tr as $td): ?>  
+                <td><?php echo $td['c'] ?></td>
+              <?php endforeach; ?>  
+              </tr>
+            <?php endforeach; ?>
+            </tbody>
+          </table>
+        <?php endif; ?>
+      </div>
+    <?php
 		echo $args['after_widget'];
 	}
 	/**
