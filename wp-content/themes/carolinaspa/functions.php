@@ -291,3 +291,6 @@ function carolinaspa_products() {
 
 }
 add_action( 'init', 'carolinaspa_products', 0 );
+
+//Shortcode that displays the products
+//Use the shortcode: [carolinaspa_products]
