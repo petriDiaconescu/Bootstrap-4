@@ -294,3 +294,34 @@ add_action( 'init', 'carolinaspa_products', 0 );
 
 //Shortcode that displays the products
 //Use the shortcode: [carolinaspa_products]
+
+function carolinaspa_products_shortcode(){
+  $args = array(
+    'posts_per_page' => 10,
+    'post_type'      => 'our_products',
+    'orderby'        => 'name',
+    'order'          => 'ASC'  
+  );
+  
+  $products = new WP_Query($args);
+  while($products->have_posts()): $products->the_post();
+  ?>
+    <div class="col-6 col-md-3 mb-5 mb-md-0">
+      <div class="card">
+        <a href="product.php?product=<?php echo $product['id']; ?>">
+          <img src="img/<?php echo $product['image_thumb']?>" alt="" class="card-img-top img-fluid" />
+          <div class="card-block">
+            <h3 class="card-title text-center text-uppercase mb-0"><?php echo $product['name']?></h3>
+            <p class="card-text text-uppercase">
+              <?php echo $product['short_description']?>
+            </p>
+            <p class="price text-center mb-0">$ <?php echo $product['price']?></p>
+          </div>
+        </a>
+      </div>
+    </div><!-- col-6 col-md-3   -->
+  <?php 
+  endwhile;  wp_reset_postdata();
+}
+
+add_shortcode('carolinaspa_products', 'carolinaspa_products_shortcode');
