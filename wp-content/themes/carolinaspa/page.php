@@ -1,8 +1,8 @@
-<?php 
-  get_header(); 
+<?php
+get_header();
 ?> 
 
-<?php while(have_posts()): the_post() ?>
+<?php while (have_posts()): the_post() ?>
   <div class="container pt-4">
     <div class="row no-gutters">
       <div class="col-12 hero">
@@ -24,6 +24,7 @@
             <span class="text-lowercase">Checkout our</span>facilities
           </h3>
 
+          <?php the_field('gallery') ?>
           <a href="" data-target="#image_1" data-toggle="modal">
             <img src="img/gallery_thumb_01.jpg" alt="" class="rounded" />
           </a>
@@ -35,8 +36,8 @@
           </a>
 
           <div class="modal fade" id="image_1" tabindex="-1" 
-            role="dialog" aria-labelledby="image_1" 
-            aria-hidden="true">
+               role="dialog" aria-labelledby="image_1" 
+               aria-hidden="true">
             <div class="modal-dialog modal-lg" role="document">
               <div class="modal-content">
                 <div class="modal-body">
@@ -46,8 +47,8 @@
             </div><!-- modal-content -->
           </div><!-- modal -->
           <div class="modal fade" id="image_2" tabindex="-1" 
-            role="dialog" aria-labelledby="image_2" 
-            aria-hidden="true">
+               role="dialog" aria-labelledby="image_2" 
+               aria-hidden="true">
             <div class="modal-dialog modal-lg" role="document">
               <div class="modal-content">
                 <div class="modal-body">
@@ -57,8 +58,8 @@
             </div><!-- modal-content -->
           </div><!-- modal -->
           <div class="modal fade" id="image_3" tabindex="-1" 
-            role="dialog" aria-labelledby="image_3" 
-            aria-hidden="true">
+               role="dialog" aria-labelledby="image_3" 
+               aria-hidden="true">
             <div class="modal-dialog modal-lg" role="document">
               <div class="modal-content">
                 <div class="modal-body">
