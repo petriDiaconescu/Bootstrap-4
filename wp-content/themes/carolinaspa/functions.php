@@ -37,10 +37,14 @@ add_action('wp_enqueue_scripts', 'carolinaspa_styles');
 
 //Setup theme
 function carolinaspa_setup(){
+  //Create the menus
   register_nav_menus(array(
     'main_menu' =>  esc_html__('Main_Menu', 'carolinaspa'),   
     'social_menu' =>  esc_html__('Social', 'carolinaspa')    
   ));
+  
+  //featured images
+  add_theme_support('post-thumbnails');
 }
 
 add_action('after_setup_theme', 'carolinaspa_setup');
