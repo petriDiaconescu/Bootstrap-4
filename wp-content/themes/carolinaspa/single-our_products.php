@@ -19,7 +19,7 @@
         <?php the_content() ?>
       </main>
 
-      <?php get_sidebar() ?>
+      <?php get_sidebar('products') ?>
     </div>
   </div>
 <?php endwhile; ?>
