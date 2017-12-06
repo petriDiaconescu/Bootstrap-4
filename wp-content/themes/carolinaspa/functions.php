@@ -130,15 +130,15 @@ add_action('widgets_init', 'carolinaspa_widgets');
 /**
  * Adds Foo_Widget widget.
  */
-class Foo_Widget extends WP_Widget {
+class Business_Hours extends WP_Widget {
 	/**
 	 * Register widget with WordPress.
 	 */
 	function __construct() {
 		parent::__construct(
 			'foo_widget', // Base ID
-			esc_html__( 'Widget Title', 'text_domain' ), // Name
-			array( 'description' => esc_html__( 'A Foo Widget', 'text_domain' ), ) // Args
+			esc_html__( 'Business Hours Widget', 'text_domain' ), // Name
+			array( 'description' => esc_html__( 'Business Hours (Check About Us to make some changes)', 'text_domain' ), ) // Args
 		);
 	}
 	/**
@@ -188,9 +188,9 @@ class Foo_Widget extends WP_Widget {
 		$instance['title'] = ( ! empty( $new_instance['title'] ) ) ? strip_tags( $new_instance['title'] ) : '';
 		return $instance;
 	}
-} // class Foo_Widget
-// register Foo_Widget widget
-function register_foo_widget() {
-    register_widget( 'Foo_Widget' );
+} // class Business_Hours
+// register Business_Hours widget
+function register_business_hours() {
+    register_widget( 'Business_Hours' );
 }
-add_action( 'widgets_init', 'register_foo_widget' );
+add_action( 'widgets_init', 'register_business_hours' );
