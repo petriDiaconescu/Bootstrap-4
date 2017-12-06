@@ -24,7 +24,12 @@
             <span class="text-lowercase">Checkout our</span>facilities
           </h3>
 
-          <?php the_field('gallery') ?>
+          <?php 
+            $gallery = get_field('gallery', $post, false);
+            echo "<prev>";
+            var_dump($gallery);
+            echo "</prev>";
+          ?>
           <a href="" data-target="#image_1" data-toggle="modal">
             <img src="img/gallery_thumb_01.jpg" alt="" class="rounded" />
           </a>
