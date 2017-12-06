@@ -233,3 +233,58 @@ function register_business_hours() {
     register_widget( 'Business_Hours' );
 }
 add_action( 'widgets_init', 'register_business_hours' );
+
+// Register Custom Post Type
+function carolinaspa_products() {
+
+	$labels = array(
+		'name'                  => _x( 'Our Products', 'Post Type General Name', 'carolinaspa' ),
+		'singular_name'         => _x( 'Our Product', 'Post Type Singular Name', 'carolinaspa' ),
+		'menu_name'             => __( 'Our Products', 'carolinaspa' ),
+		'name_admin_bar'        => __( 'Our Products', 'carolinaspa' ),
+		'archives'              => __( 'Our Products Archives', 'carolinaspa' ),
+		'attributes'            => __( 'Our Products Attributes', 'carolinaspa' ),
+		'parent_item_colon'     => __( 'Parent:', 'carolinaspa' ),
+		'all_items'             => __( 'All Products', 'carolinaspa' ),
+		'add_new_item'          => __( 'Add new Product', 'carolinaspa' ),
+		'add_new'               => __( 'Add New Product', 'carolinaspa' ),
+		'new_item'              => __( 'New Product', 'carolinaspa' ),
+		'edit_item'             => __( 'Edit Product', 'carolinaspa' ),
+		'update_item'           => __( 'Update Product', 'carolinaspa' ),
+		'view_item'             => __( 'View Product', 'carolinaspa' ),
+		'view_items'            => __( 'View Products', 'carolinaspa' ),
+		'search_items'          => __( 'Search Product', 'carolinaspa' ),
+		'not_found'             => __( 'Not found', 'carolinaspa' ),
+		'not_found_in_trash'    => __( 'Not found in Trash', 'carolinaspa' ),
+		'featured_image'        => __( 'Featured Image', 'carolinaspa' ),
+		'set_featured_image'    => __( 'Set featured image', 'carolinaspa' ),
+		'remove_featured_image' => __( 'Remove featured image', 'carolinaspa' ),
+		'use_featured_image'    => __( 'Use as featured image', 'carolinaspa' ),
+		'insert_into_item'      => __( 'Insert into Product', 'carolinaspa' ),
+		'uploaded_to_this_item' => __( 'Uploaded to this Product', 'carolinaspa' ),
+		'items_list'            => __( 'Product list', 'carolinaspa' ),
+		'items_list_navigation' => __( 'Product list navigation', 'carolinaspa' ),
+		'filter_items_list'     => __( 'Product items list', 'carolinaspa' ),
+	);
+	$args = array(
+		'label'                 => __( 'Our Product', 'carolinaspa' ),
+		'description'           => __( 'Shop Products for Carolina Spa', 'carolinaspa' ),
+		'labels'                => $labels,
+		'supports'              => array( 'title', 'editor', 'thumbnail', ),
+		'hierarchical'          => true,
+		'public'                => true,
+		'show_ui'               => true,
+		'show_in_menu'          => true,
+		'menu_position'         => 5,
+		'show_in_admin_bar'     => true,
+		'show_in_nav_menus'     => true,
+		'can_export'            => true,
+		'has_archive'           => true,
+		'exclude_from_search'   => false,
+		'publicly_queryable'    => true,
+		'capability_type'       => 'page',
+	);
+	register_post_type( 'our_products', $args );
+
+}
+add_action( 'init', 'carolinaspa_products', 0 );
