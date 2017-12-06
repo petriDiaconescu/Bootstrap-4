@@ -1,3 +1,5 @@
+$ = jQuery.noConflict();
+
 $(document).ready(function(){
   //Fixing menu on scroll
   var mainNavHeight = $('.navigation').innerHeight();
