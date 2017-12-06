@@ -6,55 +6,54 @@
     </p>
     <?php 
       $table = get_field('business_hours');
-      echo "<pre>";
-      dump_var($table);
-      echo "</pre>";
+      if($table):
     ?>
-    <table class="table table-hover text-center mt-5">
-      <thead class="table-danger">
-        <tr>
-          <th class="text-center">Day</th>
-          <th class="text-center">From</th>
-          <th class="text-center">To</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>Monday</td>
-          <td>09:00</td>
-          <td>19:00</td>
-        </tr>
-        <tr>
-          <td>Tuesday</td>
-          <td>09:00</td>
-          <td>19:00</td>
-        </tr>
-        <tr>
-          <td>Wednesday</td>
-          <td>09:00</td>
-          <td>19:00</td>
-        </tr>
-        <tr>
-          <td>Thursday</td>
-          <td>09:00</td>
-          <td>19:00</td>
-        </tr>
-        <tr>
-          <td>Friday</td>
-          <td>09:00</td>
-          <td>19:00</td>
-        </tr>
-        <tr>
-          <td>Saturday</td>
-          <td>10:00</td>
-          <td>12:00</td>
-        </tr>
-        <tr>
-          <td>Sunday</td>
-          <td>Closed</td>
-          <td>Closed</td>
-        </tr>
-      </tbody>
-    </table>
+      <table class="table table-hover text-center mt-5">
+        <thead class="table-danger">
+          <tr>
+            <th class="text-center">Day</th>
+            <th class="text-center">From</th>
+            <th class="text-center">To</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Monday</td>
+            <td>09:00</td>
+            <td>19:00</td>
+          </tr>
+          <tr>
+            <td>Tuesday</td>
+            <td>09:00</td>
+            <td>19:00</td>
+          </tr>
+          <tr>
+            <td>Wednesday</td>
+            <td>09:00</td>
+            <td>19:00</td>
+          </tr>
+          <tr>
+            <td>Thursday</td>
+            <td>09:00</td>
+            <td>19:00</td>
+          </tr>
+          <tr>
+            <td>Friday</td>
+            <td>09:00</td>
+            <td>19:00</td>
+          </tr>
+          <tr>
+            <td>Saturday</td>
+            <td>10:00</td>
+            <td>12:00</td>
+          </tr>
+          <tr>
+            <td>Sunday</td>
+            <td>Closed</td>
+            <td>Closed</td>
+          </tr>
+        </tbody>
+      </table>
+    <?php endif; ?>
   </div>
 </aside>
