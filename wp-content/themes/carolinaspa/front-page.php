@@ -3,6 +3,15 @@
  ?> 
     <div class="container">
       <div id="main-slider" class="carousel slide mt-4" data-ride="carousel">
+        <?php 
+          $args = array(
+            'posts_per_page' => 5,
+            'tag'            => 'slider'    
+          );
+          $slider = new WP_Query($args);
+          
+          if($slider->have_posts()):
+        ?>
         <ol class="carousel-indicators">
           <li data-target="#main-slider" 
               data-slide-to="0" class="active">      
@@ -53,6 +62,7 @@
             </span>
             <span class="sr-only">Next</span>
         </a>
+        <?php endif;wp_reset_postdata(); ?>
       </div>
     </div>
     
