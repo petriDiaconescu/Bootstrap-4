@@ -25,27 +25,21 @@
         </ol>
         
         <div class="carousel-inner" role="listbox">
+          <?php while($slider->have_posts()): $slider->the_post(); ?>
           <div class="carousel-item active">
             <img src="img/slide_01.jpg" 
               alt="Our facilities" class="d-block img-fluid"/>
+            <?php 
+              the_post_thumbnail('slider', array(
+                'class' => 'd-block img-fluid',
+                'alt'   => get_the_title()  
+              )); 
+              ?>
             <div class="carousel-caption d-none d-md-block">
-              <h3 class="text-uppercase">Brand new facilities</h3>
+              <h3 class="text-uppercase"><?php the_title(); ?></h3>
             </div>
           </div><!-- carousel-item  -->
-          <div class="carousel-item">
-            <img src="img/slide_02.jpg" 
-              alt="Our facilities" class="d-block img-fluid"/>
-            <div class="carousel-caption d-none d-md-block">
-              <h3 class="text-uppercase">Learn about our services</h3>
-            </div>
-          </div><!-- carousel-item  -->
-          <div class="carousel-item">
-            <img src="img/slide_03.jpg" 
-              alt="Our facilities" class="d-block img-fluid"/>
-            <div class="carousel-caption d-none d-md-block">
-              <h3 class="text-uppercase">New website 2 for 1 in all services</h3>
-            </div>
-          </div><!-- carousel-item  -->
+          <?php endwhile; ?>
         </div><!-- carousel-inner -->
         
         <a href="#main-slider" class="carousel-control-prev" 

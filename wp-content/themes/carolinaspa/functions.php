@@ -53,6 +53,7 @@ function carolinaspa_setup(){
   
   //Add new Image Size
   add_image_size('product_thumb', 400, 266, true);
+  add_image_size('slider', 1140, 543, true);
 }
 
 add_action('after_setup_theme', 'carolinaspa_setup');
