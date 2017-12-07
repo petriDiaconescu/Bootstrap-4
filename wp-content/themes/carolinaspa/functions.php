@@ -332,3 +332,34 @@ function carolinaspa_products_shortcode(){
 }
 
 add_shortcode('carolinaspa_products', 'carolinaspa_products_shortcode');
+
+//shortcut that displays the contact form
+//Use the shortcode: [carolinaspa_mail]
+
+function carolinaspa_contact_form(){
+?>
+    <form id="contact_form" action="<?php echo get_template_directory_uri(); ?>/send.php" method="POST" class="p-5 mt-5 contact-form">
+    <div class="form-group">
+      <label for="name">Name</label>
+      <input type="text" class="form-control" id="name" name="name" placeholder="Your Name" />
+      <small class="form-text text-muted"></small>
+    </div>
+    <div class="form-group">
+      <label for="email">Email</label>
+      <input type="email" class="form-control" id="email" name="email" placeholder="Your Email" />
+      <small class="form-text text-muted"></small>
+    </div>
+    <div class="form-group">
+      <label for="message">Message</label>
+      <textarea name="message" id="message" rows="6" class="form-control"></textarea>
+      <small class="form-text text-muted"></small>
+    </div>
+
+    <input type="submit" class="btn btn-primary text-uppercase" name="submit" value="Submit" />
+    <div id="output" class="alert alert-success text-center mt-3 d-none"></div>
+  </form>
+<?php    
+}
+
+add_shortcode('carolinaspa_mail', 'carolinaspa_contact_form');
+?>

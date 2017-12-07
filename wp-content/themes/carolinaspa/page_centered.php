@@ -20,7 +20,6 @@
       <main class="col-12 col-md-10 offset-md-1 primary-content">
         <h2 class="d-block d-md-none text-center text-uppercase"><?php the_title() ?></h2>
         <?php the_content() ?>
-        ?>
       </main>
     </div>
   </div>
