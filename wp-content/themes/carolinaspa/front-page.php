@@ -11,24 +11,24 @@
           $slider = new WP_Query($args);
           
           if($slider->have_posts()):
+            $count = $slider->found_posts;
+            
         ?>
         <ol class="carousel-indicators">
+        <?php for($i=0; $i<$count; $i++){ ?>  
           <li data-target="#main-slider" 
-              data-slide-to="0" class="active">      
-          </li>
-          <li data-target="#main-slider" 
-              data-slide-to="1" >      
-          </li>
-          <li data-target="#main-slider" 
-              data-slide-to="2" >      
-          </li>
+              data-slide-to="<?php echo $i; ?>" 
+              class="<?php echo ($i==0) ? 'active' : '' ?>">      
+          </li> 
+        <?php } ?>  
         </ol>
         
         <div class="carousel-inner" role="listbox">
-          <?php while($slider->have_posts()): $slider->the_post(); ?>
-          <div class="carousel-item active">
-            <img src="img/slide_01.jpg" 
-              alt="Our facilities" class="d-block img-fluid"/>
+        <?php 
+          $i=0;
+          while($slider->have_posts()): $slider->the_post(); 
+        ?>
+          <div class="carousel-item <?php echo ($i==0) ? 'active' : '' ?>">  
             <?php 
               the_post_thumbnail('slider', array(
                 'class' => 'd-block img-fluid',
@@ -39,7 +39,10 @@
               <h3 class="text-uppercase"><?php the_title(); ?></h3>
             </div>
           </div><!-- carousel-item  -->
-          <?php endwhile; ?>
+        <?php
+          $i++;
+          endwhile; 
+        ?>
         </div><!-- carousel-inner -->
         
         <a href="#main-slider" class="carousel-control-prev" 
