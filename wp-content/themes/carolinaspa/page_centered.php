@@ -17,18 +17,11 @@
 
   <div class="container">
     <div class="row  mt-lg-4">
-      <main class="col-lg-8 primary-content">
+      <main class="col-12 col-md-10 offset-md-1 primary-content">
         <h2 class="d-block d-md-none text-center text-uppercase"><?php the_title() ?></h2>
         <?php the_content() ?>
-        <?php 
-          if(is_page('about-us')):
-            get_template_part('/templates/gallery');
-          endif;
-            
         ?>
       </main>
-
-      <?php get_sidebar() ?>
     </div>
   </div>
 <?php endwhile; ?>
