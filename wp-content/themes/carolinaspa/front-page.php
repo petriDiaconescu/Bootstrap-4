@@ -1,7 +1,5 @@
 <?php 
-   include 'templates/header.php'; 
-   include 'templates/navigation.php';
-   $title = 'Home';
+   get_header();
  ?> 
     <div class="container">
       <div id="main-slider" class="carousel slide mt-4" data-ride="carousel">
@@ -162,6 +160,6 @@
     
   <?php 
     include 'templates/appointment.php';
-    include 'templates/footer.php'; 
+    get_footer();
   ?>  
     
